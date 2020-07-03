@@ -8,6 +8,19 @@ Public High School information can be found [here](https://docs.google.com/sprea
 # **Basic Requirements**
 
 ## 1.How many public high schools are in each zip code? in each state?
+```
+select zip_code, count(*) as num_hs_by_zip_code
+from public_highschool
+group by zip_code
+order by count(*) desc; 
+```
+
+```
+select state_code, count(*) as num_hs_by_state_code
+from public_highschool
+group by state_code
+order by count(*) desc; 
+````
 
 ## 2.The locale_code column in the high school data corresponds to various levels of urbanization as listed below. Use the CASE statement to display the corresponding locale_text and locale_size in your query result.
 
@@ -16,9 +29,7 @@ b. [ Suburb ](#Suburb)
 c. [ Town ](#Town) 
 d. [ Rural ](#Rural)
 
-<a name="city"></a>
-  ###### a.City
-11 (Large), 12 (Midsize), 13 (Small)
+<a name="city"></a> 11 (Large), 12 (Midsize), 13 (Small)
 
 <a name="Suburb"></a>
   ###### b. Suburb
