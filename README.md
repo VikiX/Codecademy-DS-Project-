@@ -24,12 +24,9 @@ order by count(*) desc;
 
 ## 2.The locale_code column in the high school data corresponds to various levels of urbanization as listed below. Use the CASE statement to display the corresponding locale_text and locale_size in your query result.
 
-a. [ City. ](#city)
-b. [ Suburb ](#Suburb)
-c. [ Town ](#Town) 
-d. [ Rural ](#Rural)
-
-<a name="city"></a>   ###### a.City 11 (Large), 12 (Midsize), 13 (Small)
+  
+  ###### a.City
+11 (Large), 12 (Midsize), 13 (Small)
 
 <a name="Suburb"></a>
   ###### b. Suburb
