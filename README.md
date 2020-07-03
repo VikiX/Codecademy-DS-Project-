@@ -29,7 +29,7 @@ b. [ Suburb ](#Suburb)
 c. [ Town ](#Town) 
 d. [ Rural ](#Rural)
 
-<a name="city"></a> 11 (Large), 12 (Midsize), 13 (Small)
+<a name="city"></a>   ###### a.City 11 (Large), 12 (Midsize), 13 (Small)
 
 <a name="Suburb"></a>
   ###### b. Suburb
