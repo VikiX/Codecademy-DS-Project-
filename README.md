@@ -25,20 +25,10 @@ order by count(*) desc;
 ## 2.The locale_code column in the high school data corresponds to various levels of urbanization as listed below. Use the CASE statement to display the corresponding locale_text and locale_size in your query result.
 
   
-  ###### a.City
-11 (Large), 12 (Midsize), 13 (Small)
-
-<a name="Suburb"></a>
-  ###### b. Suburb
-21 (Large), 22 (Midsize), 23 (Small)
-
-<a name="Town"></a>
-  ###### c. Town
-31 (Fringe), 32 (Distant), 33 (Remote)
-
-<a name="Rural"></a>
-  ###### d. Rural
-41 (Fringe), 42 (Distant), 43 (Remote)
+  ##### a.City: 11 (Large), 12 (Midsize), 13 (Small)
+  ##### b. Suburb：21 (Large), 22 (Midsize), 23 (Small)
+  ##### c. Town:　31 (Fringe), 32 (Distant), 33 (Remote)
+  ##### d. Rural：41 (Fringe), 42 (Distant), 43 (Remote)
 
 ## 3. What is the minimum, maximum, and average median_household_income of the nation? for each state?
 
