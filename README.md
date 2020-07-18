@@ -1,4 +1,4 @@
-# Codecademy-DS-Project # 
+# Codecademy-Public High School # 
 DS-  Education &amp; Census Data Analysis 
 Education & Census Data Analysis 
 
